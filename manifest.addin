@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<RevitAddIns>
+	<AddIn Type="Application">
+		<Name>RevitoCityApps</Name>
+		<Assembly>RevitoCity.dll</Assembly>
+		<AddInId>4F1889C7-4EAE-4727-B52A-B4C4C00022D0</AddInId>
+		<FullClassName>RevitoCity.App</FullClassName>
+		<Text>External Application</Text>
+		<Description>This is our first External Application</Description>
+		<VendorId>Aniket J.</VendorId>
+		<VendorDescription>Aniket J. Eng</VendorDescription>
+		<VisibilityMode>AlwaysVisible</VisibilityMode>
+	</AddIn>
+</RevitAddIns>
