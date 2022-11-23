@@ -31,25 +31,27 @@ namespace RevitoCity
 
 
                 // Button 1 code start
-                PushButtonData btnData1 = new PushButtonData("AJToolsbtn1", "Quick print", assemblyName, "RevitoCity.Quickprint");
+                PushButtonData btnData1 = new PushButtonData("AJToolsbtn1", "Quick print", assemblyName, "RevitoCity.QuickPrintui");
                 btnData1.LargeImage = new BitmapImage(new Uri(path + @"\print.png"));
                 btnData1.ToolTip = "Quick print active view";
-                demoPanel.AddItem(btnData1);
+                
 
                 // Button 2 code start
                 PushButtonData btnData2 = new PushButtonData("AJToolsbtn2", "Parameters", assemblyName, "RevitoCity.Setparameter");
                 btnData2.LargeImage = new BitmapImage(new Uri(path + @"\getparameter.png"));
                 btnData2.ToolTip = "Set Schedules Parameters";
 
+
                 PushButtonData importButton = new PushButtonData("AJToolsbtn3", "Import", assemblyName, "RevitoCity.Import");
                 importButton.LargeImage = new BitmapImage(new Uri(path + @"\export-32.png"));
                 importButton.ToolTip = "Import Excel Data";
+
 
                 PushButtonData btnData4 = new PushButtonData("AJToolsbtn4", "Export", assemblyName, "RevitoCity.Export");
                 btnData4.LargeImage = new BitmapImage(new Uri(path + @"\import-32.png"));
                 btnData4.ToolTip = "Export Excel Data";
 
-              
+                demoPanel.AddItem(btnData1);
                 demoPanel.AddSeparator();
                 demoPanel.AddItem(btnData2);
                 demoPanel.AddSeparator();
