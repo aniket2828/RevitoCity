@@ -19,15 +19,13 @@ namespace RevitoCity
                 String assemblyName = Assembly.GetExecutingAssembly().Location;
                 String path = System.IO.Path.GetDirectoryName(assemblyName);
 
-                String tabName = "AJTools"; 
+                String tabName = "Revitocity"; 
                 application.CreateRibbonTab(tabName);
 
                
 
-                RibbonPanel demoPanel = application.CreateRibbonPanel(tabName, "AJTools Panel");
+                RibbonPanel demoPanel = application.CreateRibbonPanel(tabName, "Revitocity tools");
                
-
-                RibbonPanel demoPanel2 = application.CreateRibbonPanel(tabName, "AJTools Panel 2");
 
 
                 // Button 1 code start
